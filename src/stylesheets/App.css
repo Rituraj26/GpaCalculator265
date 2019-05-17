@@ -66,7 +66,7 @@ body {
 		font-size: 59%;
 	}
 	.list-input {
-		width: 13rem;
+		width: 100%;
 	}
 }
 
@@ -74,9 +74,9 @@ body {
 	html {
 		font-size: 55%;
 	}
-	.list-input {
-		width: 10rem;
-	}
+	/* .list-input {
+		width: 100%;
+	} */
 	.category__form div * {
 		margin: 0 .7rem;
 	}
@@ -85,9 +85,9 @@ body {
 	#root {
 		grid-column: center-start / center-end;
 	}
-	.list-input {
+	/* .list-input {
 		width: 100%;
-	}
+	} */
 }
 @media screen and (max-width: 490px) {
 	html {
@@ -98,18 +98,19 @@ body {
 		padding: 0 2.5rem;
 	}
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
 	html {
 		font-size: 45%;
 	}
 }
+
 @media screen and (max-width: 330px) {
 	html {
-		font-size: 37%;
+		font-size: 40%;
 	}
 }
 @media screen and (max-width: 300px) {
 	html {
-		font-size: 30%;
+		font-size: 35%;
 	}
 }

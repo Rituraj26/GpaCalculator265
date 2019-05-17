@@ -25,7 +25,7 @@ class Cgpa extends React.Component {
 					<span className="list-input-container">
 						<input 
 							className="list-input"
-							type="text" 
+							type="number" 
 							value={grd.point} 
 							onChange={e => this.handleChange(e, index)} 
 							required="required"

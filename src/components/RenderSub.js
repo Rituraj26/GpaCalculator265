@@ -39,7 +39,7 @@ class RenderSub extends React.Component {
 					<span className="list-input-container">
 						<input 
 							className="list-input"
-							type="text" 
+							type="number" 
 							value={this.getValue(keys[index])} 
 							onChange={e => this.handleChange(e, keys[index])} 
 							required="required"

@@ -17,7 +17,7 @@ class OtherDept extends React.Component {
 			return (
 				<div key={ind} className="otherdept__list">
 					<input 
-						type="text" 
+						type="number" 
 						name="sub" 
 						className="list-input"
 						value={detail.sub} 
@@ -25,7 +25,7 @@ class OtherDept extends React.Component {
 						required="required"
 					/>
 					<input 
-						type="text" 
+						type="number" 
 						name="credit" 
 						className="list-input"
 						value={detail.credit} 
@@ -33,7 +33,7 @@ class OtherDept extends React.Component {
 						required="required"
 					/>
 					<input 
-						type="text" 
+						type="number" 
 						name="mark" 
 						className="list-input"
 						value={detail.marks} 
