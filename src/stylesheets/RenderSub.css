@@ -1,0 +1,11 @@
+.rendersub__container {
+	grid-column: 1 / -1;
+	text-align: start;
+}
+
+.rendersub__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 2rem;
+	font-size: 1.5rem;
+}

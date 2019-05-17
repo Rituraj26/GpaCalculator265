@@ -1,0 +1,15 @@
+.cgpa__container {
+	grid-column: 1 / -1;
+}
+
+.cgpa__form {
+	display: grid;
+}
+
+.cgpa__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr) min-content;
+	grid-column-gap: 2rem;
+	margin: 2rem;
+	font-size: 1.5rem;
+}

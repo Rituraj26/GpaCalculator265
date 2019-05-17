@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	font-weight: 100;
+	font-family: "Times New Roman", sans-serif;
+	color: rgb(117, 117, 117);
+
+	display: grid;
+	grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(10, [col-start] minmax(min-content, 12rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+
+	background-image: url('../images/img2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#root {
+	grid-column: col-start 3 / col-end 7;
+	margin: 3rem 0;
+}
+
+.container {
+	text-align: center;	
+}
+
+.container h1 {
+	font-size: 4rem;
+	color: #fff;
+	font-weight: 100;
+}
+
+.content {
+	box-shadow: -1px 9px 45px -6px rgba(168,168,168,0.58);
+	margin-top: 4.5rem;
+	background-color: #fff;
+	
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, min-content);
+}
+
+@media screen and (max-width: 1180px) {
+	#root {
+		grid-column: col-start 3 / col-end 8;
+	}
+	body {
+		background-image: none;
+	}
+	.container h1 {
+		color: rgba(62, 3, 172, 0.836);
+	}
+}
+@media screen and (max-width: 840px) {
+	html {
+		font-size: 59%;
+	}
+	.list-input {
+		width: 13rem;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	html {
+		font-size: 55%;
+	}
+	.list-input {
+		width: 10rem;
+	}
+	.category__form div * {
+		margin: 0 .3rem;
+	}
+}
+@media screen and (max-width: 560px) {
+	html {
+		font-size: 45%;
+	}
+	#root {
+		grid-column: center-start / center-end;
+	}
+}
+@media screen and (max-width: 350px) {
+	html {
+		font-size: 40%;
+	}
+	#root {
+		grid-column: full-start / full-end;
+		padding: 0 1.5rem;
+	}
+}
+@media screen and (max-width: 270px) {
+	html {
+		font-size: 35%;
+	}
+}

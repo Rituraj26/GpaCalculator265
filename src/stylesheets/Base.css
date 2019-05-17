@@ -1,0 +1,91 @@
+.addnew {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2rem 2rem;
+	width: 16rem;
+	border-radius: 0;
+	border: 1px solid blue;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: blue;
+	transition: .2s;
+	padding: .2rem 0;
+}
+
+.addnew:hover {
+	background-color: rgba(3, 66, 202, 0.795);
+	color: #fff;
+}
+
+.addnew span {
+	font-size: 1.6rem;
+	color: inherit;
+	margin-left: .5rem;
+}
+
+.calculate {
+	height: 4rem;
+	background-color: #fff;
+	color: blue;
+	border: 1px solid blue;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	transition: .2s;
+}
+
+.calculate:hover {
+	background-color: rgba(3, 66, 202, 0.795);
+	color: #fff;
+}
+
+.result {
+	padding: 1.4rem;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	display: grid;
+	justify-items: center;
+}
+
+.result span {
+	margin-top: 1rem;
+	font-size: 2.5rem;
+	color: blue;
+}
+
+.delete {
+	font-size: 1.6rem;
+	cursor: pointer;
+	color: red;
+	font-family: sans-serif;
+}
+
+.list-content {
+	align-self: center;
+}
+
+.list-input-container {
+	justify-self: center;
+}
+
+.list-input {
+	height: 2rem;
+	outline: none;
+	border: 1px solid rgb(209, 206, 206);
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.form {
+	display: grid;
+	grid-template-rows: repeat(2, min-content);
+}
+
+#headings {
+	font-size: 2.3rem;
+	text-align: center;
+}
+
+.blank {
+	color: white;
+}
