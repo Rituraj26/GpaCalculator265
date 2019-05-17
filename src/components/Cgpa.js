@@ -83,7 +83,7 @@ class Cgpa extends React.Component {
 					<button className="addnew" type="button" onClick={this.addNewGPA}>Add Gpa<span>+</span></button>
 					<button className="calculate" type="submit">Calculate cgpa</button>
 				</form>
-				<h3 className="result">Your Sem Cgpa is: <span>{this.state.res}</span></h3>
+				<h3 className="result">Your Cgpa is: <span>{this.state.res}</span></h3>
 			</div>
 		);
 	}

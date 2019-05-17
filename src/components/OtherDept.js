@@ -17,7 +17,7 @@ class OtherDept extends React.Component {
 			return (
 				<div key={ind} className="otherdept__list">
 					<input 
-						type="number" 
+						type="text" 
 						name="sub" 
 						className="list-input"
 						value={detail.sub} 
@@ -128,7 +128,7 @@ class OtherDept extends React.Component {
 					<button className="addnew" type="button" onClick={this.addNewSub}>Add New Subject <span>+</span></button>
 					<button className="calculate" type="submit">Calculate Gpa</button>
 				</form>
-				<h3 className="result">Your Sem Gpa is: <span>{this.state.gpa}</span></h3>
+				<h3 className="result">Your Semester Gpa is: <span>{this.state.gpa}</span></h3>
 			</div>
 		);
 	}

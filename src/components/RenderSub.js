@@ -98,7 +98,7 @@ class RenderSub extends React.Component {
 					<div>{this.renderedLists()}</div>
 					<button className="calculate" type="submit">Calculate Gpa</button>
 				</form>
-				<h3 className="result">Your Sem Gpa is: <span>{this.state.gpa}</span></h3>
+				<h3 className="result">Your Semester Gpa is: <span>{this.state.gpa}</span></h3>
 				
 			</div>
 		);
