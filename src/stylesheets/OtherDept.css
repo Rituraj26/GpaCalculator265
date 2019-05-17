@@ -8,8 +8,7 @@
 
 .otherdept__list {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr) min-content;
-	grid-column-gap: 2rem;
-	padding: 0 1rem;
+	grid-template-columns: repeat(3, minmax(1rem, 1fr)) min-content;
+	grid-column-gap: 1.7rem;
 	margin: 2rem;
 }

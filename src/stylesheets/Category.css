@@ -8,6 +8,7 @@
 	grid-template-columns: repeat(2, 1fr);
 	background-color: rgb(236, 233, 233);
 	align-items: center;
+	justify-items: center;
 
 	height: 5rem;
 	font-size: 1.6rem;
@@ -15,6 +16,11 @@
 
 .category__form div * {
 	margin: 0 1rem;
+	align-self:center;
+}
+
+.category__form--radio {
+	display: flex;
 }
 
 .category__form--dropdown {

@@ -61,7 +61,7 @@ body {
 		color: rgba(62, 3, 172, 0.836);
 	}
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 980px) {
 	html {
 		font-size: 59%;
 	}
@@ -78,28 +78,38 @@ body {
 		width: 10rem;
 	}
 	.category__form div * {
-		margin: 0 .3rem;
+		margin: 0 .7rem;
 	}
 }
-@media screen and (max-width: 560px) {
-	html {
-		font-size: 45%;
-	}
+@media screen and (max-width: 650px) {
 	#root {
 		grid-column: center-start / center-end;
 	}
+	.list-input {
+		width: 100%;
+	}
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 490px) {
 	html {
-		font-size: 40%;
+		font-size: 50%;
 	}
 	#root {
 		grid-column: full-start / full-end;
-		padding: 0 1.5rem;
+		padding: 0 2.5rem;
 	}
 }
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 420px) {
 	html {
-		font-size: 35%;
+		font-size: 45%;
+	}
+}
+@media screen and (max-width: 330px) {
+	html {
+		font-size: 37%;
+	}
+}
+@media screen and (max-width: 300px) {
+	html {
+		font-size: 30%;
 	}
 }

@@ -40,21 +40,25 @@ class Category extends React.Component {
 		return (
 			<div className="category">
 				<form className="category__form">
-					<div>
-						<label htmlFor="branch">Branch</label>
+					<div className="category__form--radio">
+						<span>Branch</span>
 						<input 
 							type="radio"  
+							id="cse"
 							name="branch" 
 							value="CSE" 
 							checked={this.state.branch === 'CSE'} 
 							onChange={this.onRadioSubmit} 
-						/>CSE
+						/>
+						<label htmlFor="cse">CSE</label>
 						<input 
 							type="radio" 
+							id="other"
 							name="branch" 
 							value="Other" 
 							onChange={this.onRadioSubmit} 
-						/>Other
+						/>
+						<label htmlFor="other">Other</label>
 					</div>
 					<div>
 						<label htmlFor="sems">Semester</label>
