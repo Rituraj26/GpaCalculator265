@@ -16,7 +16,7 @@ class App extends React.Component {
 			third: {0: 'Discrete Mathematics and Numerical Methods', 1: 'Object Oriented Programming', 2: 'Fundamentals of Digital Systems', 3: 'Object Oriented Programming Lab', 4: 'Advanced Data Structures', 5: 'Theory of Computation', 6: 'Electronic Devices', 7: 'Electronic Devices and Digital Systems Lab'},
 			fourth: {0: 'Design and Analysis of Algorithm', 1: 'Computer Architecture & Organisation', 2: 'Database Management System', 3: 'Microprocessor & Microcontroller Based Systems', 4: 'Probability and Statistics', 5: 'RDBMS Lab', 6: 'Microprocessor & Microcontroller Lab', 7: 'Programming in Java'},
 			fifth: {0: 'Operating System', 1: 'Computer Graphics and Multimedia Systems', 2: 'Compiler Design', 3: 'Software Engineering', 4: 'Computer Networks', 5: 'Operating System Lab', 6: 'Compiler Lab', 7: 'Networking Lab', 8: 'Professional Training - I'},
-			sixth: {0: 'Object Oriented Analysis and Design', 1: 'Network Security', 2: 'Data Mining and Data Warehousing', 3: 'Cloud Computing', 4: 'Machine Learning', 5: 'Python Programming / R Programming / Internet of Things', 6: 'OOAD Lab', 7: 'Machine Learning Lab'}
+			sixth: {0: 'Machine Learning', 1: 'Data Mining and Data Warehousing', 2: 'Cloud Computing', 3: 'Object Oriented Analysis and Design', 4: 'Python Programming / R Programming / Internet of Things', 5: 'OOAD Lab', 6: 'Machine Learning Lab', 7: 'Network Security'}
 		},
 		credits: {
 			first: [3, 4, 3, 3, 3, 3, 2, 2],
@@ -24,7 +24,7 @@ class App extends React.Component {
 			third: [4, 3, 3, 2, 3, 4, 3, 2],
 			fourth: [3, 3, 3, 3, 4, 2, 2, 4],
 			fifth: [3, 3, 3, 3, 4, 2, 2, 2, 5],
-			sixth: [3, 3, 3, 3, 4, 3, 2, 2]
+			sixth: [4, 3, 3, 3, 3, 2, 2, 3]
 		}
 	};
 
